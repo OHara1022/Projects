@@ -1,2 +1,2 @@
 # Projects
-iOS applications I have created.
+Projects I have created in Swift and Java.
