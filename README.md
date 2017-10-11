@@ -8,3 +8,4 @@ Android applications are in folders:
 - Tip_Tracker
 
 Every folder except Tip_Tracker has an iOS version of the application.
+
