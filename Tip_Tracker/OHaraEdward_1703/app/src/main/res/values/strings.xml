@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">OHaraEdward_1703</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Login</string>
+    <string name="forget_password">forget password?</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="add">Add</string>
+    <string name="testing">TESTING</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="please_add_tips">Please add tips</string>
+    <string name="monthly_breakdown">Monthly Breakdown</string>
+    <string name="add_tips">Add Tips</string>
+    <string name="please_enter_email">Please Enter Email</string>
+    <string name="mm_dd_yyyy">MM/DD/YYYY</string>
+    <string name="select_date">Select Date</string>
+    <string name="enter_total_sales">Enter total sales</string>
+    <string name="enter_tip_out_percentage">Enter tip out percentage</string>
+    <string name="enter_cash_tips">Enter cash tips</string>
+    <string name="enter_credit_card_tips">Enter credit card tips</string>
+    <string name="enter_hours_worked">Enter hours worked</string>
+    <string name="enter_note_optional">Enter note (optional)</string>
+    <string name="date">Date</string>
+    <string name="total_tips">Total Tips</string>
+    <string name="hours_worked">Hours Worked</string>
+    <string name="_2">2</string>
+    <string name="total_sales">Total Sales</string>
+    <string name="tip_percentage">Tip Percentage</string>
+    <string name="total_credit_tips">Total Credit Tips</string>
+    <string name="total_cash_tips">Total Cash Tips</string>
+    <string name="total_tips_per_hour">Total Tips Per Hour</string>
+    <string name="note_optional">Note (optional)</string>
+    <string name="delete_tip">Delete Tip</string>
+    <string name="edit_tip">Edit Tip</string>
+    <string name="track_your_tips">Track your Tips</string>
+    <string name="weekly_tip_out">Weekly Tip Out</string>
+    <string name="_400">400</string>
+    <string name="display_tip_out_graph">Display Tip Out Graph</string>
+    <string name="weekly_average_in_tips">Weekly Average in Tips</string>
+    <string name="_600">600</string>
+    <string name="display_weekly_average_graph">Display Weekly Average Graph</string>
+    <string name="monthly_average_in_tips">Monthly Average in Tips</string>
+    <string name="_2400">2400</string>
+    <string name="display_monthly_average_graph">Display Monthly Average Graph</string>
+    <string name="total_tips_after_tip_out">Total Tips After Tip Out</string>
+    <string name="key">Key:</string>
+    <string name="month_x_axis">Month: x axis</string>
+    <string name="average_y_axis">Average: y axis</string>
+    <string name="week_x_axis">Week: x axis</string>
+
+    <string-array name="MonthlySelection">
+        <item>Select Month</item>
+        <item>January</item>
+        <item>February</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>

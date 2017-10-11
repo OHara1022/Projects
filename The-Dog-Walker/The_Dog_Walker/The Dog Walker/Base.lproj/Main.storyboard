@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16G29" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="glF-rR-Ale">
+    <device id="retina5_5" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Login View Controller-->
+        <scene sceneID="Z9c-Ke-gh2">
+            <objects>
+                <viewController storyboardIdentifier="loginID" id="glF-rR-Ale" customClass="LoginViewController" customModule="The_Dog_Walker" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="p2h-Cs-x77"/>
+                        <viewControllerLayoutGuide type="bottom" id="KOO-Hc-Mv6"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="iae-87-PCa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="display_icon" translatesAutoresizingMaskIntoConstraints="NO" id="QnC-cp-oO9">
+                                <rect key="frame" x="0.0" y="20" width="414" height="184"/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Email" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SRT-gl-lDl">
+                                <rect key="frame" x="46" y="293" width="321" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="next"/>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4x4-gF-Kea">
+                                <rect key="frame" x="46" y="353" width="321" height="30"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" returnKeyType="done" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P2c-KC-Z8r">
+                                <rect key="frame" x="126.66666666666666" y="388" width="240.33333333333334" height="29"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <state key="normal" title="Forgot Password?">
+                                    <color key="titleColor" red="0.0" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="forgotPassword:" destination="glF-rR-Ale" eventType="touchUpInside" id="iFo-qT-83U"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="deI-FM-fyQ">
+                                <rect key="frame" x="103.66666666666669" y="636" width="207" height="34"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="34" id="37y-bi-lma"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <state key="normal" title="Register">
+                                    <color key="titleColor" red="0.0" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="CC7-LQ-wHJ" kind="presentation" id="7r6-QO-IyI"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GSZ-ZC-Nbf">
+                                <rect key="frame" x="66" y="447" width="282" height="31"/>
+                                <color key="backgroundColor" red="0.0" green="0.59999999999999998" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="31" id="ckx-di-ERM"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginUserBtn:" destination="glF-rR-Ale" eventType="touchUpInside" id="hJ8-2Z-52x"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="P2c-KC-Z8r" firstAttribute="width" secondItem="4x4-gF-Kea" secondAttribute="width" multiplier="0.75" id="0Lg-wn-ZJs"/>
+                            <constraint firstItem="GSZ-ZC-Nbf" firstAttribute="leading" secondItem="iae-87-PCa" secondAttribute="leadingMargin" constant="46" id="2HK-M2-yf2"/>
+                            <constraint firstItem="GSZ-ZC-Nbf" firstAttribute="top" secondItem="P2c-KC-Z8r" secondAttribute="bottom" constant="30" id="2o2-OY-zBT"/>
+                            <constraint firstItem="QnC-cp-oO9" firstAttribute="leading" secondItem="iae-87-PCa" secondAttribute="leading" id="4hJ-i7-Mqy"/>
+                            <constraint firstItem="4x4-gF-Kea" firstAttribute="centerY" secondItem="iae-87-PCa" secondAttribute="centerY" id="BBx-Am-YON"/>
+                            <constraint firstItem="SRT-gl-lDl" firstAttribute="leading" secondItem="4x4-gF-Kea" secondAttribute="leading" id="JZf-0F-kaC"/>
+                            <constraint firstAttribute="trailing" secondItem="QnC-cp-oO9" secondAttribute="trailing" id="Peg-bN-JyO"/>
+                            <constraint firstItem="deI-FM-fyQ" firstAttribute="width" secondItem="iae-87-PCa" secondAttribute="width" multiplier="0.5" id="T6c-xN-3zx"/>
+                            <constraint firstItem="SRT-gl-lDl" firstAttribute="width" secondItem="4x4-gF-Kea" secondAttribute="width" id="W4g-Dw-WYS"/>
+                            <constraint firstItem="KOO-Hc-Mv6" firstAttribute="top" secondItem="deI-FM-fyQ" secondAttribute="bottom" constant="66" id="Wfd-mV-mJx"/>
+                            <constraint firstItem="P2c-KC-Z8r" firstAttribute="trailing" secondItem="4x4-gF-Kea" secondAttribute="trailing" id="aay-nR-D2L"/>
+                            <constraint firstItem="deI-FM-fyQ" firstAttribute="centerX" secondItem="4x4-gF-Kea" secondAttribute="centerX" id="gci-eK-vkr"/>
+                            <constraint firstItem="QnC-cp-oO9" firstAttribute="height" secondItem="iae-87-PCa" secondAttribute="height" multiplier="0.25" id="neC-nL-X62"/>
+                            <constraint firstItem="4x4-gF-Kea" firstAttribute="top" secondItem="SRT-gl-lDl" secondAttribute="bottom" constant="30" id="nh9-f9-Zza"/>
+                            <constraint firstItem="deI-FM-fyQ" firstAttribute="centerX" secondItem="GSZ-ZC-Nbf" secondAttribute="centerX" id="ofH-YK-9dZ"/>
+                            <constraint firstItem="4x4-gF-Kea" firstAttribute="width" secondItem="iae-87-PCa" secondAttribute="width" multiplier="0.75" constant="10.75" id="qMf-A5-6yj"/>
+                            <constraint firstItem="deI-FM-fyQ" firstAttribute="centerX" secondItem="QnC-cp-oO9" secondAttribute="centerX" id="v8e-1e-TRl"/>
+                            <constraint firstItem="QnC-cp-oO9" firstAttribute="top" secondItem="p2h-Cs-x77" secondAttribute="bottom" id="xO2-lJ-h07"/>
+                            <constraint firstItem="P2c-KC-Z8r" firstAttribute="top" secondItem="4x4-gF-Kea" secondAttribute="bottom" constant="5" id="xkF-Cc-XRD"/>
+                        </constraints>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <color key="backgroundColor" red="0.98039215686274506" green="0.9882352941176471" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="emailLoginTF" destination="SRT-gl-lDl" id="2w4-ih-dSC"/>
+                        <outlet property="loginBtn" destination="GSZ-ZC-Nbf" id="rQ9-u4-fwZ"/>
+                        <outlet property="passwordLoginTF" destination="4x4-gF-Kea" id="1ed-wm-byr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="h9S-qX-M9b" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-359.19999999999999" y="-45.42728635682159"/>
+        </scene>
+        <!--Register-->
+        <scene sceneID="yYd-7d-VyC">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Register" id="CC7-LQ-wHJ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g4o-e7-cP4" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="420" y="-46"/>
+        </scene>
+        <!--WalkerHome-->
+        <scene sceneID="4Ax-CZ-qr4">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="walkerHome" storyboardName="WalkerHome" id="tr5-5B-p3O" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3iL-BP-6Kl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="420" y="18"/>
+        </scene>
+        <!--OwnerProfile-->
+        <scene sceneID="vik-vv-KpP">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="ownerHome" storyboardName="OwnerProfile" id="ikt-6c-iDn" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="at3-P4-9JS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="422" y="77"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="display_icon" width="1024" height="625"/>
+    </resources>
+</document>

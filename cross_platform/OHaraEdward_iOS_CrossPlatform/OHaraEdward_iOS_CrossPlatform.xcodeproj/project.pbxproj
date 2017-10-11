@@ -1,0 +1,861 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00106A1F6474764D4CE3E6F4 /* Pods_OHaraEdward_iOS_CrossPlatformTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE781F7D934365D385C5819 /* Pods_OHaraEdward_iOS_CrossPlatformTests.framework */; };
+		4DAAF41D2D7045DA3FD0196D /* Pods_OHaraEdward_iOS_CrossPlatform.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42323FFEE0EE8A121C222C56 /* Pods_OHaraEdward_iOS_CrossPlatform.framework */; };
+		647883A808D57CF4DAB643E4 /* Pods_OHaraEdward_iOS_CrossPlatformUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 999A5240EFEE4F3DB1E2E013 /* Pods_OHaraEdward_iOS_CrossPlatformUITests.framework */; };
+		D25038411E8C4E3E0097A27F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25038401E8C4E3E0097A27F /* AppDelegate.swift */; };
+		D25038461E8C4E3E0097A27F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25038441E8C4E3E0097A27F /* Main.storyboard */; };
+		D25038481E8C4E3E0097A27F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D25038471E8C4E3E0097A27F /* Assets.xcassets */; };
+		D250384B1E8C4E3E0097A27F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D25038491E8C4E3E0097A27F /* LaunchScreen.storyboard */; };
+		D25038561E8C4E3E0097A27F /* OHaraEdward_iOS_CrossPlatformTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25038551E8C4E3E0097A27F /* OHaraEdward_iOS_CrossPlatformTests.swift */; };
+		D25038611E8C4E3F0097A27F /* OHaraEdward_iOS_CrossPlatformUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D25038601E8C4E3F0097A27F /* OHaraEdward_iOS_CrossPlatformUITests.swift */; };
+		D250386F1E8C4F410097A27F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D250386E1E8C4F410097A27F /* GoogleService-Info.plist */; };
+		D26593FC1EB2215100DEA9A4 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26593FB1EB2215100DEA9A4 /* EditViewController.swift */; };
+		D26593FE1EB26BBE00DEA9A4 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D26593FD1EB26BBE00DEA9A4 /* Reachability.swift */; };
+		D2AF9B781E9441D70065A6B1 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF9B771E9441D70065A6B1 /* UserData.swift */; };
+		D2AF9B7B1E9445570065A6B1 /* ContactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF9B7A1E9445570065A6B1 /* ContactData.swift */; };
+		D2AF9B7D1E94548D0065A6B1 /* ContactTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF9B7C1E94548D0065A6B1 /* ContactTableViewController.swift */; };
+		D2AF9B801E9473BB0065A6B1 /* AddContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF9B7F1E9473BB0065A6B1 /* AddContactViewController.swift */; };
+		D2AF9B831E9473F20065A6B1 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2AF9B821E9473F20065A6B1 /* DetailsViewController.swift */; };
+		D2BAC3351E9298B500D4B42F /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BAC3341E9298B500D4B42F /* SignUpViewController.swift */; };
+		D2BAC3371E92990A00D4B42F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BAC3361E92990A00D4B42F /* LoginViewController.swift */; };
+		D2BAC3391E929E4200D4B42F /* FieldsCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2BAC3381E929E4200D4B42F /* FieldsCheck.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D25038521E8C4E3E0097A27F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D25038351E8C4E3E0097A27F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D250383C1E8C4E3E0097A27F;
+			remoteInfo = OHaraEdward_iOS_CrossPlatform;
+		};
+		D250385D1E8C4E3F0097A27F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D25038351E8C4E3E0097A27F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D250383C1E8C4E3E0097A27F;
+			remoteInfo = OHaraEdward_iOS_CrossPlatform;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2B841AF43413BC6D408DC2E0 /* Pods-OHaraEdward_iOS_CrossPlatform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OHaraEdward_iOS_CrossPlatform.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OHaraEdward_iOS_CrossPlatform/Pods-OHaraEdward_iOS_CrossPlatform.debug.xcconfig"; sourceTree = "<group>"; };
+		3F8882C2448C2A8CE8BE93BE /* Pods-OHaraEdward_iOS_CrossPlatformTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OHaraEdward_iOS_CrossPlatformTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OHaraEdward_iOS_CrossPlatformTests/Pods-OHaraEdward_iOS_CrossPlatformTests.debug.xcconfig"; sourceTree = "<group>"; };
+		42323FFEE0EE8A121C222C56 /* Pods_OHaraEdward_iOS_CrossPlatform.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OHaraEdward_iOS_CrossPlatform.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81DA40E4AF644C4F3F29BFC3 /* Pods-OHaraEdward_iOS_CrossPlatformUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OHaraEdward_iOS_CrossPlatformUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OHaraEdward_iOS_CrossPlatformUITests/Pods-OHaraEdward_iOS_CrossPlatformUITests.release.xcconfig"; sourceTree = "<group>"; };
+		999A5240EFEE4F3DB1E2E013 /* Pods_OHaraEdward_iOS_CrossPlatformUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OHaraEdward_iOS_CrossPlatformUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8317D2BDFD29CD484E7C750 /* Pods-OHaraEdward_iOS_CrossPlatformTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OHaraEdward_iOS_CrossPlatformTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OHaraEdward_iOS_CrossPlatformTests/Pods-OHaraEdward_iOS_CrossPlatformTests.release.xcconfig"; sourceTree = "<group>"; };
+		ABE781F7D934365D385C5819 /* Pods_OHaraEdward_iOS_CrossPlatformTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OHaraEdward_iOS_CrossPlatformTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D250383D1E8C4E3E0097A27F /* OHaraEdward_iOS_CrossPlatform.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OHaraEdward_iOS_CrossPlatform.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25038401E8C4E3E0097A27F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D25038451E8C4E3E0097A27F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D25038471E8C4E3E0097A27F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D250384A1E8C4E3E0097A27F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D250384C1E8C4E3E0097A27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D25038511E8C4E3E0097A27F /* OHaraEdward_iOS_CrossPlatformTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OHaraEdward_iOS_CrossPlatformTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25038551E8C4E3E0097A27F /* OHaraEdward_iOS_CrossPlatformTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OHaraEdward_iOS_CrossPlatformTests.swift; sourceTree = "<group>"; };
+		D25038571E8C4E3F0097A27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D250385C1E8C4E3F0097A27F /* OHaraEdward_iOS_CrossPlatformUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OHaraEdward_iOS_CrossPlatformUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D25038601E8C4E3F0097A27F /* OHaraEdward_iOS_CrossPlatformUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OHaraEdward_iOS_CrossPlatformUITests.swift; sourceTree = "<group>"; };
+		D25038621E8C4E3F0097A27F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D250386E1E8C4F410097A27F /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D26593FB1EB2215100DEA9A4 /* EditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		D26593FD1EB26BBE00DEA9A4 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		D2AF9B771E9441D70065A6B1 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		D2AF9B7A1E9445570065A6B1 /* ContactData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactData.swift; sourceTree = "<group>"; };
+		D2AF9B7C1E94548D0065A6B1 /* ContactTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewController.swift; sourceTree = "<group>"; };
+		D2AF9B7F1E9473BB0065A6B1 /* AddContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddContactViewController.swift; sourceTree = "<group>"; };
+		D2AF9B821E9473F20065A6B1 /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		D2BAC3341E9298B500D4B42F /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D2BAC3361E92990A00D4B42F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D2BAC3381E929E4200D4B42F /* FieldsCheck.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldsCheck.swift; sourceTree = "<group>"; };
+		F2C43289279D9CD2FBFED78B /* Pods-OHaraEdward_iOS_CrossPlatformUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OHaraEdward_iOS_CrossPlatformUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OHaraEdward_iOS_CrossPlatformUITests/Pods-OHaraEdward_iOS_CrossPlatformUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F91A4DCD587A801AA1FD7260 /* Pods-OHaraEdward_iOS_CrossPlatform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OHaraEdward_iOS_CrossPlatform.release.xcconfig"; path = "Pods/Target Support Files/Pods-OHaraEdward_iOS_CrossPlatform/Pods-OHaraEdward_iOS_CrossPlatform.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D250383A1E8C4E3E0097A27F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAAF41D2D7045DA3FD0196D /* Pods_OHaraEdward_iOS_CrossPlatform.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D250384E1E8C4E3E0097A27F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00106A1F6474764D4CE3E6F4 /* Pods_OHaraEdward_iOS_CrossPlatformTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25038591E8C4E3F0097A27F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				647883A808D57CF4DAB643E4 /* Pods_OHaraEdward_iOS_CrossPlatformUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		31EC1B600A5A2AA3F0D0723E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42323FFEE0EE8A121C222C56 /* Pods_OHaraEdward_iOS_CrossPlatform.framework */,
+				ABE781F7D934365D385C5819 /* Pods_OHaraEdward_iOS_CrossPlatformTests.framework */,
+				999A5240EFEE4F3DB1E2E013 /* Pods_OHaraEdward_iOS_CrossPlatformUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D25038341E8C4E3E0097A27F = {
+			isa = PBXGroup;
+			children = (
+				D250383F1E8C4E3E0097A27F /* OHaraEdward_iOS_CrossPlatform */,
+				D25038541E8C4E3E0097A27F /* OHaraEdward_iOS_CrossPlatformTests */,
+				D250385F1E8C4E3F0097A27F /* OHaraEdward_iOS_CrossPlatformUITests */,
+				D250383E1E8C4E3E0097A27F /* Products */,
+				E28614FADF47E3B349876FF6 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		D250383E1E8C4E3E0097A27F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D250383D1E8C4E3E0097A27F /* OHaraEdward_iOS_CrossPlatform.app */,
+				D25038511E8C4E3E0097A27F /* OHaraEdward_iOS_CrossPlatformTests.xctest */,
+				D250385C1E8C4E3F0097A27F /* OHaraEdward_iOS_CrossPlatformUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D250383F1E8C4E3E0097A27F /* OHaraEdward_iOS_CrossPlatform */ = {
+			isa = PBXGroup;
+			children = (
+				D25038401E8C4E3E0097A27F /* AppDelegate.swift */,
+				D25038471E8C4E3E0097A27F /* Assets.xcassets */,
+				D2AF9B791E9445400065A6B1 /* DataModel */,
+				D2BAC33A1E929EB700D4B42F /* FieldsCheck */,
+				D2BAC3331E92985B00D4B42F /* SignUp */,
+				D2BAC3321E92985100D4B42F /* Login */,
+				D2AF9B7E1E9454A50065A6B1 /* ContactList */,
+				D2AF9B811E9473C20065A6B1 /* AddContact */,
+				D2AF9B841E9473F60065A6B1 /* Details */,
+				D26593FA1EB2212D00DEA9A4 /* EditContact */,
+				D26593FF1EB2D5E000DEA9A4 /* NetworkReachabililty */,
+				D2AF9B751E943E920065A6B1 /* Storyboard */,
+				D2AF9B761E943EA70065A6B1 /* Info.plist */,
+			);
+			path = OHaraEdward_iOS_CrossPlatform;
+			sourceTree = "<group>";
+		};
+		D25038541E8C4E3E0097A27F /* OHaraEdward_iOS_CrossPlatformTests */ = {
+			isa = PBXGroup;
+			children = (
+				D25038551E8C4E3E0097A27F /* OHaraEdward_iOS_CrossPlatformTests.swift */,
+				D25038571E8C4E3F0097A27F /* Info.plist */,
+			);
+			path = OHaraEdward_iOS_CrossPlatformTests;
+			sourceTree = "<group>";
+		};
+		D250385F1E8C4E3F0097A27F /* OHaraEdward_iOS_CrossPlatformUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D25038601E8C4E3F0097A27F /* OHaraEdward_iOS_CrossPlatformUITests.swift */,
+				D25038621E8C4E3F0097A27F /* Info.plist */,
+			);
+			path = OHaraEdward_iOS_CrossPlatformUITests;
+			sourceTree = "<group>";
+		};
+		D26593FA1EB2212D00DEA9A4 /* EditContact */ = {
+			isa = PBXGroup;
+			children = (
+				D26593FB1EB2215100DEA9A4 /* EditViewController.swift */,
+			);
+			name = EditContact;
+			sourceTree = "<group>";
+		};
+		D26593FF1EB2D5E000DEA9A4 /* NetworkReachabililty */ = {
+			isa = PBXGroup;
+			children = (
+				D26593FD1EB26BBE00DEA9A4 /* Reachability.swift */,
+			);
+			name = NetworkReachabililty;
+			sourceTree = "<group>";
+		};
+		D2AF9B751E943E920065A6B1 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				D25038441E8C4E3E0097A27F /* Main.storyboard */,
+				D25038491E8C4E3E0097A27F /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		D2AF9B761E943EA70065A6B1 /* Info.plist */ = {
+			isa = PBXGroup;
+			children = (
+				D250386E1E8C4F410097A27F /* GoogleService-Info.plist */,
+				D250384C1E8C4E3E0097A27F /* Info.plist */,
+			);
+			name = Info.plist;
+			sourceTree = "<group>";
+		};
+		D2AF9B791E9445400065A6B1 /* DataModel */ = {
+			isa = PBXGroup;
+			children = (
+				D2AF9B771E9441D70065A6B1 /* UserData.swift */,
+				D2AF9B7A1E9445570065A6B1 /* ContactData.swift */,
+			);
+			name = DataModel;
+			sourceTree = "<group>";
+		};
+		D2AF9B7E1E9454A50065A6B1 /* ContactList */ = {
+			isa = PBXGroup;
+			children = (
+				D2AF9B7C1E94548D0065A6B1 /* ContactTableViewController.swift */,
+			);
+			name = ContactList;
+			sourceTree = "<group>";
+		};
+		D2AF9B811E9473C20065A6B1 /* AddContact */ = {
+			isa = PBXGroup;
+			children = (
+				D2AF9B7F1E9473BB0065A6B1 /* AddContactViewController.swift */,
+			);
+			name = AddContact;
+			sourceTree = "<group>";
+		};
+		D2AF9B841E9473F60065A6B1 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				D2AF9B821E9473F20065A6B1 /* DetailsViewController.swift */,
+			);
+			name = Details;
+			sourceTree = "<group>";
+		};
+		D2BAC3321E92985100D4B42F /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				D2BAC3361E92990A00D4B42F /* LoginViewController.swift */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		D2BAC3331E92985B00D4B42F /* SignUp */ = {
+			isa = PBXGroup;
+			children = (
+				D2BAC3341E9298B500D4B42F /* SignUpViewController.swift */,
+			);
+			name = SignUp;
+			sourceTree = "<group>";
+		};
+		D2BAC33A1E929EB700D4B42F /* FieldsCheck */ = {
+			isa = PBXGroup;
+			children = (
+				D2BAC3381E929E4200D4B42F /* FieldsCheck.swift */,
+			);
+			name = FieldsCheck;
+			sourceTree = "<group>";
+		};
+		E28614FADF47E3B349876FF6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31EC1B600A5A2AA3F0D0723E /* Frameworks */,
+				2B841AF43413BC6D408DC2E0 /* Pods-OHaraEdward_iOS_CrossPlatform.debug.xcconfig */,
+				F91A4DCD587A801AA1FD7260 /* Pods-OHaraEdward_iOS_CrossPlatform.release.xcconfig */,
+				3F8882C2448C2A8CE8BE93BE /* Pods-OHaraEdward_iOS_CrossPlatformTests.debug.xcconfig */,
+				A8317D2BDFD29CD484E7C750 /* Pods-OHaraEdward_iOS_CrossPlatformTests.release.xcconfig */,
+				F2C43289279D9CD2FBFED78B /* Pods-OHaraEdward_iOS_CrossPlatformUITests.debug.xcconfig */,
+				81DA40E4AF644C4F3F29BFC3 /* Pods-OHaraEdward_iOS_CrossPlatformUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D250383C1E8C4E3E0097A27F /* OHaraEdward_iOS_CrossPlatform */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25038651E8C4E3F0097A27F /* Build configuration list for PBXNativeTarget "OHaraEdward_iOS_CrossPlatform" */;
+			buildPhases = (
+				4F751A9A2D3B28262D1C3D7E /* [CP] Check Pods Manifest.lock */,
+				D25038391E8C4E3E0097A27F /* Sources */,
+				D250383A1E8C4E3E0097A27F /* Frameworks */,
+				D250383B1E8C4E3E0097A27F /* Resources */,
+				5872BFD00829C673E0FBD6A9 /* [CP] Embed Pods Frameworks */,
+				4C9D1A17A6C95D964988A6B6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OHaraEdward_iOS_CrossPlatform;
+			productName = OHaraEdward_iOS_CrossPlatform;
+			productReference = D250383D1E8C4E3E0097A27F /* OHaraEdward_iOS_CrossPlatform.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D25038501E8C4E3E0097A27F /* OHaraEdward_iOS_CrossPlatformTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D25038681E8C4E3F0097A27F /* Build configuration list for PBXNativeTarget "OHaraEdward_iOS_CrossPlatformTests" */;
+			buildPhases = (
+				FBA3685A5A695FF7BEBE7294 /* [CP] Check Pods Manifest.lock */,
+				D250384D1E8C4E3E0097A27F /* Sources */,
+				D250384E1E8C4E3E0097A27F /* Frameworks */,
+				D250384F1E8C4E3E0097A27F /* Resources */,
+				0F1B40EFAC4A0455FB15A7D5 /* [CP] Embed Pods Frameworks */,
+				60A1EFD0B5692894750AB2CD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D25038531E8C4E3E0097A27F /* PBXTargetDependency */,
+			);
+			name = OHaraEdward_iOS_CrossPlatformTests;
+			productName = OHaraEdward_iOS_CrossPlatformTests;
+			productReference = D25038511E8C4E3E0097A27F /* OHaraEdward_iOS_CrossPlatformTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D250385B1E8C4E3F0097A27F /* OHaraEdward_iOS_CrossPlatformUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D250386B1E8C4E3F0097A27F /* Build configuration list for PBXNativeTarget "OHaraEdward_iOS_CrossPlatformUITests" */;
+			buildPhases = (
+				047FD5482A1E05168D21E3FA /* [CP] Check Pods Manifest.lock */,
+				D25038581E8C4E3F0097A27F /* Sources */,
+				D25038591E8C4E3F0097A27F /* Frameworks */,
+				D250385A1E8C4E3F0097A27F /* Resources */,
+				FF044D681F41EA4A641A104B /* [CP] Embed Pods Frameworks */,
+				F21FCB305AE40DC1C7E1712D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D250385E1E8C4E3F0097A27F /* PBXTargetDependency */,
+			);
+			name = OHaraEdward_iOS_CrossPlatformUITests;
+			productName = OHaraEdward_iOS_CrossPlatformUITests;
+			productReference = D250385C1E8C4E3F0097A27F /* OHaraEdward_iOS_CrossPlatformUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D25038351E8C4E3E0097A27F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Scott O'Hara";
+				TargetAttributes = {
+					D250383C1E8C4E3E0097A27F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6VFLGS887N;
+						ProvisioningStyle = Automatic;
+					};
+					D25038501E8C4E3E0097A27F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6VFLGS887N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D250383C1E8C4E3E0097A27F;
+					};
+					D250385B1E8C4E3F0097A27F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 6VFLGS887N;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D250383C1E8C4E3E0097A27F;
+					};
+				};
+			};
+			buildConfigurationList = D25038381E8C4E3E0097A27F /* Build configuration list for PBXProject "OHaraEdward_iOS_CrossPlatform" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D25038341E8C4E3E0097A27F;
+			productRefGroup = D250383E1E8C4E3E0097A27F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D250383C1E8C4E3E0097A27F /* OHaraEdward_iOS_CrossPlatform */,
+				D25038501E8C4E3E0097A27F /* OHaraEdward_iOS_CrossPlatformTests */,
+				D250385B1E8C4E3F0097A27F /* OHaraEdward_iOS_CrossPlatformUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D250383B1E8C4E3E0097A27F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D250384B1E8C4E3E0097A27F /* LaunchScreen.storyboard in Resources */,
+				D250386F1E8C4F410097A27F /* GoogleService-Info.plist in Resources */,
+				D25038481E8C4E3E0097A27F /* Assets.xcassets in Resources */,
+				D25038461E8C4E3E0097A27F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D250384F1E8C4E3E0097A27F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D250385A1E8C4E3F0097A27F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		047FD5482A1E05168D21E3FA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0F1B40EFAC4A0455FB15A7D5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OHaraEdward_iOS_CrossPlatformTests/Pods-OHaraEdward_iOS_CrossPlatformTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C9D1A17A6C95D964988A6B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OHaraEdward_iOS_CrossPlatform/Pods-OHaraEdward_iOS_CrossPlatform-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F751A9A2D3B28262D1C3D7E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5872BFD00829C673E0FBD6A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OHaraEdward_iOS_CrossPlatform/Pods-OHaraEdward_iOS_CrossPlatform-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60A1EFD0B5692894750AB2CD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OHaraEdward_iOS_CrossPlatformTests/Pods-OHaraEdward_iOS_CrossPlatformTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F21FCB305AE40DC1C7E1712D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OHaraEdward_iOS_CrossPlatformUITests/Pods-OHaraEdward_iOS_CrossPlatformUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBA3685A5A695FF7BEBE7294 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF044D681F41EA4A641A104B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OHaraEdward_iOS_CrossPlatformUITests/Pods-OHaraEdward_iOS_CrossPlatformUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D25038391E8C4E3E0097A27F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D26593FC1EB2215100DEA9A4 /* EditViewController.swift in Sources */,
+				D2BAC3371E92990A00D4B42F /* LoginViewController.swift in Sources */,
+				D2BAC3391E929E4200D4B42F /* FieldsCheck.swift in Sources */,
+				D2AF9B831E9473F20065A6B1 /* DetailsViewController.swift in Sources */,
+				D2AF9B7B1E9445570065A6B1 /* ContactData.swift in Sources */,
+				D2BAC3351E9298B500D4B42F /* SignUpViewController.swift in Sources */,
+				D2AF9B7D1E94548D0065A6B1 /* ContactTableViewController.swift in Sources */,
+				D26593FE1EB26BBE00DEA9A4 /* Reachability.swift in Sources */,
+				D2AF9B801E9473BB0065A6B1 /* AddContactViewController.swift in Sources */,
+				D2AF9B781E9441D70065A6B1 /* UserData.swift in Sources */,
+				D25038411E8C4E3E0097A27F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D250384D1E8C4E3E0097A27F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25038561E8C4E3E0097A27F /* OHaraEdward_iOS_CrossPlatformTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D25038581E8C4E3F0097A27F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D25038611E8C4E3F0097A27F /* OHaraEdward_iOS_CrossPlatformUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D25038531E8C4E3E0097A27F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D250383C1E8C4E3E0097A27F /* OHaraEdward_iOS_CrossPlatform */;
+			targetProxy = D25038521E8C4E3E0097A27F /* PBXContainerItemProxy */;
+		};
+		D250385E1E8C4E3F0097A27F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D250383C1E8C4E3E0097A27F /* OHaraEdward_iOS_CrossPlatform */;
+			targetProxy = D250385D1E8C4E3F0097A27F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D25038441E8C4E3E0097A27F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D25038451E8C4E3E0097A27F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D25038491E8C4E3E0097A27F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D250384A1E8C4E3E0097A27F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D25038631E8C4E3F0097A27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D25038641E8C4E3F0097A27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D25038661E8C4E3F0097A27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2B841AF43413BC6D408DC2E0 /* Pods-OHaraEdward_iOS_CrossPlatform.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6VFLGS887N;
+				INFOPLIST_FILE = OHaraEdward_iOS_CrossPlatform/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OHara.OHaraEdward-iOS-CrossPlatform";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D25038671E8C4E3F0097A27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F91A4DCD587A801AA1FD7260 /* Pods-OHaraEdward_iOS_CrossPlatform.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6VFLGS887N;
+				INFOPLIST_FILE = OHaraEdward_iOS_CrossPlatform/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OHara.OHaraEdward-iOS-CrossPlatform";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D25038691E8C4E3F0097A27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F8882C2448C2A8CE8BE93BE /* Pods-OHaraEdward_iOS_CrossPlatformTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6VFLGS887N;
+				INFOPLIST_FILE = OHaraEdward_iOS_CrossPlatformTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OHara.OHaraEdward-iOS-CrossPlatformTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OHaraEdward_iOS_CrossPlatform.app/OHaraEdward_iOS_CrossPlatform";
+			};
+			name = Debug;
+		};
+		D250386A1E8C4E3F0097A27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8317D2BDFD29CD484E7C750 /* Pods-OHaraEdward_iOS_CrossPlatformTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6VFLGS887N;
+				INFOPLIST_FILE = OHaraEdward_iOS_CrossPlatformTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OHara.OHaraEdward-iOS-CrossPlatformTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OHaraEdward_iOS_CrossPlatform.app/OHaraEdward_iOS_CrossPlatform";
+			};
+			name = Release;
+		};
+		D250386C1E8C4E3F0097A27F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F2C43289279D9CD2FBFED78B /* Pods-OHaraEdward_iOS_CrossPlatformUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6VFLGS887N;
+				INFOPLIST_FILE = OHaraEdward_iOS_CrossPlatformUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OHara.OHaraEdward-iOS-CrossPlatformUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OHaraEdward_iOS_CrossPlatform;
+			};
+			name = Debug;
+		};
+		D250386D1E8C4E3F0097A27F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81DA40E4AF644C4F3F29BFC3 /* Pods-OHaraEdward_iOS_CrossPlatformUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 6VFLGS887N;
+				INFOPLIST_FILE = OHaraEdward_iOS_CrossPlatformUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.OHara.OHaraEdward-iOS-CrossPlatformUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = OHaraEdward_iOS_CrossPlatform;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D25038381E8C4E3E0097A27F /* Build configuration list for PBXProject "OHaraEdward_iOS_CrossPlatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25038631E8C4E3F0097A27F /* Debug */,
+				D25038641E8C4E3F0097A27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25038651E8C4E3F0097A27F /* Build configuration list for PBXNativeTarget "OHaraEdward_iOS_CrossPlatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25038661E8C4E3F0097A27F /* Debug */,
+				D25038671E8C4E3F0097A27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D25038681E8C4E3F0097A27F /* Build configuration list for PBXNativeTarget "OHaraEdward_iOS_CrossPlatformTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D25038691E8C4E3F0097A27F /* Debug */,
+				D250386A1E8C4E3F0097A27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D250386B1E8C4E3F0097A27F /* Build configuration list for PBXNativeTarget "OHaraEdward_iOS_CrossPlatformUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D250386C1E8C4E3F0097A27F /* Debug */,
+				D250386D1E8C4E3F0097A27F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D25038351E8C4E3E0097A27F /* Project object */;
+}

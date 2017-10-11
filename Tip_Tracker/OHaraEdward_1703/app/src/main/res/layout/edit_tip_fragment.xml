@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/dateTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/date"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/hoursWorkedEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/enter_hours_worked"
+        android:inputType="number"
+        android:textAlignment="textStart" />
+
+    <EditText
+        android:id="@+id/totalSalesEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/enter_total_sales"
+        android:inputType="number"
+        android:textAlignment="textStart" />
+
+    <EditText
+        android:id="@+id/tipOutPercentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/enter_tip_out_percentage"
+        android:inputType="number"
+        android:textAlignment="textStart"
+        android:maxLength="1"/>
+
+    <EditText
+        android:id="@+id/cashTipsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/enter_cash_tips"
+        android:inputType="number"
+        android:textAlignment="textStart" />
+
+    <EditText
+        android:id="@+id/creditTipsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/enter_credit_card_tips"
+        android:inputType="number"
+        android:textAlignment="textStart" />
+
+    <EditText
+        android:id="@+id/noteEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/enter_note_optional"
+        android:inputType="text"
+        android:maxLength="140"
+        android:textAlignment="textStart" />
+
+
+</LinearLayout>

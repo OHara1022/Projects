@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <!--text view show selected date-->
+        <TextView
+            android:id="@+id/selectedDateTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="4sp"
+            android:layout_marginLeft="16sp"
+            android:layout_marginRight="16sp"
+            android:layout_marginTop="8sp"
+            android:layout_weight="0.5"
+            android:hint="@string/mm_dd_yyyy"
+            android:paddingTop="16sp"
+            android:textAlignment="center"
+            android:textSize="20sp"/>
+
+        <!--button to display date picker-->
+        <Button
+            android:id="@+id/selectDateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="4sp"
+            android:layout_marginLeft="16sp"
+            android:layout_marginRight="16sp"
+            android:layout_marginTop="8sp"
+            android:layout_weight="0.5"
+            android:text="@string/select_date"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/colorWhite"/>
+    </LinearLayout>
+
+    <!--edit text to add tips-->
+    <EditText
+        android:id="@+id/hoursWorkedET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/enter_hours_worked"
+        android:inputType="number"
+        android:textAlignment="textStart"
+        android:maxLength="2"/>
+
+    <EditText
+        android:id="@+id/totalSalesET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/enter_total_sales"
+        android:inputType="number"
+        android:textAlignment="textStart"
+        android:maxLength="3"/>
+
+    <EditText
+        android:id="@+id/tipOutPercentET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/enter_tip_out_percentage"
+        android:inputType="number"
+        android:textAlignment="textStart"
+        android:maxLength="1"/>
+
+   <EditText
+        android:id="@+id/cashTipsET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/enter_cash_tips"
+        android:inputType="number"
+        android:textAlignment="textStart"
+       android:maxLength="3"/>
+
+    <EditText
+        android:id="@+id/creditTipsET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/enter_credit_card_tips"
+        android:inputType="number"
+        android:textAlignment="textStart"
+        android:maxLength="3"/>
+
+    <EditText
+        android:id="@+id/noteET"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginTop="20dp"
+        android:hint="@string/enter_note_optional"
+        android:inputType="text"
+        android:maxLength="140"
+        android:textAlignment="textStart" />
+
+</LinearLayout>

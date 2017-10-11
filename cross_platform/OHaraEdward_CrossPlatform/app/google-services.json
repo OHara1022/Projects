@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "662493623918",
+    "firebase_url": "https://oharaedwardcrossplatform.firebaseio.com",
+    "project_id": "oharaedwardcrossplatform",
+    "storage_bucket": "oharaedwardcrossplatform.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:662493623918:android:19040a59e1c45cf1",
+        "android_client_info": {
+          "package_name": "com.ohara.oharaedward_crossplatform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "662493623918-lsm3cs5h2p1uhh84ghmanb4vrrsiagq3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ohara.oharaedward_crossplatform",
+            "certificate_hash": "8473275c6f1263ef6e334e7e89f667a2131b92ee"
+          }
+        },
+        {
+          "client_id": "662493623918-3afagcacqcliji7lnifa7f3vvh7ko31j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCW51yfj9RcvZgtlmPRUymvqy1oLfwxNVo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "662493623918-3afagcacqcliji7lnifa7f3vvh7ko31j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
