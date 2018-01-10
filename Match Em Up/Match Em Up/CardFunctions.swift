@@ -40,10 +40,10 @@ extension GameViewController {
     }
     
     //update timer label
-    func updateTimer(){
+    @objc func updateTimer(){
         
         //set timer label to count up from zero
-//        timerOutlet.text = "Time: \(cardDetail.counter)"
+        timerOutlet.text = "Time: \(cardDetail.counter)"
         
     }
 
@@ -81,7 +81,8 @@ extension GameViewController {
                 }
                 
                 //swap the values of the array
-                swap(&cardDetail.ipadImageArray[i], &cardDetail.ipadImageArray[j])
+//               swap(&cardDetail.ipadImageArray[i], &cardDetail.ipadImageArray[j])
+                 cardDetail.ipadImageArray.swapAt(i, j)
                 
             }
             
@@ -102,9 +103,12 @@ extension GameViewController {
                 j = Int(arc4random_uniform(UInt32(i + 1)))
                 
             }
-            
+            print(i)
+            print(j)
             //swap the values of the array
-            swap(&cardDetail.imageCollectionArray[i], &cardDetail.imageCollectionArray[j])
+            cardDetail.imageCollectionArray.swapAt(i, j)
+            
+//            swap(&cardDetail.imageCollectionArray[i], &cardDetail.imageCollectionArray[j])
             
         }
         
@@ -256,6 +260,7 @@ extension GameViewController {
         
         //add tap gesture to imageCollectionOutlet
         //loop through imageCollection
+        //deprcated method
 //        for i in 0 ..< cardOutletCollection.count += 1{
 //            
 //            //tapGesture
@@ -275,7 +280,7 @@ extension GameViewController {
     }
     
     //tapGestureRecognized function
-    func tapGestureRecognized(_ sender: UITapGestureRecognizer){
+    @objc func tapGestureRecognized(_ sender: UITapGestureRecognizer){
         
         
         

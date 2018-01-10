@@ -69,8 +69,8 @@ class GameViewController: UIViewController {
         resumeButtonOutlet.isHidden = true
         
         //set timeOutlet text to the timers value
-//        timerOutlet.text = "Time: \(cardDetail.counter)"
-        timerOutlet.text = "Match Em Up!"
+        timerOutlet.text = "Time: \(cardDetail.counter)"
+//        timerOutlet.text = "Match Em Up!"
         
         //start timer
         timer()
