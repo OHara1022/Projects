@@ -42,6 +42,8 @@ extension GameViewController {
     //update timer label
     @objc func updateTimer(){
         
+        cardDetail.counter += 1
+        
         //set timer label to count up from zero
         timerOutlet.text = "Time: \(cardDetail.counter)"
         
