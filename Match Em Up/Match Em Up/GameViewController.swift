@@ -64,7 +64,6 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        
         //hide resumeButton
         resumeButtonOutlet.isHidden = true
         
@@ -80,17 +79,11 @@ class GameViewController: UIViewController {
         
         
         //shuffle cards when view loads
-        shuffle()
+//        shuffle()
         
         
         //imageCollection loop and add tapGesture
         tapGestureLoop()
         
     }
-    
-    
-    
-    
-    
 }
-

@@ -34,9 +34,5 @@ class CardDetail {
     //optional(empty) UIImageViews to hold users selection
     var selection1: UIImageView?
     var selection2: UIImageView?
-    
-    
-   
-    
 
 }

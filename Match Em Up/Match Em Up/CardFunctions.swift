@@ -7,8 +7,6 @@
 //
 
 import Foundation
-
-//import UIKit
 import UIKit
 
 //extension to gameViewController
@@ -22,7 +20,6 @@ extension GameViewController {
             
             //set  user interaction to true
             i.isUserInteractionEnabled = true
-            
         }
     }
     
@@ -34,24 +31,22 @@ extension GameViewController {
             
             //set user interaction to false
             i.isUserInteractionEnabled = false
-            
         }
-        
     }
     
     //update timer label
     @objc func updateTimer(){
         
+        //update counter
         cardDetail.counter += 1
         
         //set timer label to count up from zero
         timerOutlet.text = "Time: \(cardDetail.counter)"
-        
     }
 
-    
+    //set timer 
     func timer(){
-
+        
         cardDetail.timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(GameViewController.updateTimer), userInfo: nil, repeats: true)
     }
     
@@ -61,7 +56,6 @@ extension GameViewController {
         //hide imageSelection
         cardDetail.selection1?.isHidden = true
         cardDetail.selection2?.isHidden = true
-        
     }
     
     //shuffle images
@@ -90,8 +84,6 @@ extension GameViewController {
             
             //make sure image array shuffles
             print(cardDetail.ipadImageArray)
-
-            
         }
         
         //loop through imageCollection
@@ -111,7 +103,6 @@ extension GameViewController {
             cardDetail.imageCollectionArray.swapAt(i, j)
             
 //            swap(&cardDetail.imageCollectionArray[i], &cardDetail.imageCollectionArray[j])
-            
         }
         
         //make sure image array shuffles
@@ -133,8 +124,19 @@ extension GameViewController {
         
         //reset timerText to counter value
         self.timerOutlet.text = "Time: \(cardDetail.counter)"
+    }
+    
+    
+    //TODO: -- Save users time on completion, Add date on completioin to save to coreData
+    
+    
+    //covert seconds to minutes
+    func formatMinutes(_ totalSeconds: Int) -> String {
         
+        let minutes = totalSeconds / 60;
+        let seconds = totalSeconds % 60;
         
+        return String(format:"%2d Minute & %02d Seconds!", minutes, seconds);
     }
     
     //reset game once all cards are matched
@@ -144,7 +146,16 @@ extension GameViewController {
         cardDetail.timer.invalidate()
         
         //create an alert that the user has won
-        let alert = UIAlertController(title: "Congratulations!!!", message: "Your time was \(cardDetail.counter) seconds!", preferredStyle: .alert)
+        var alert = UIAlertController(title: "Congratulations!!!", message: "Your time was \(cardDetail.counter) Seconds!", preferredStyle: .alert)
+        
+        //check if counter is over 60 seconds
+        if cardDetail.counter >= 60{
+            
+            //dev
+            print(formatMinutes(cardDetail.counter))
+            
+              alert = UIAlertController(title: "Congratulations!!!", message: "Your time was\(formatMinutes(cardDetail.counter))", preferredStyle: .alert)
+        }
         
         //add action to alert, reset data back to orignal values
         let action = UIAlertAction(title: "Play Again?", style: .default) { (ACTION)  in
@@ -283,8 +294,6 @@ extension GameViewController {
     
     //tapGestureRecognized function
     @objc func tapGestureRecognized(_ sender: UITapGestureRecognizer){
-        
-        
         
         //check if first selection is nil
         if cardDetail.selection1 == nil {
